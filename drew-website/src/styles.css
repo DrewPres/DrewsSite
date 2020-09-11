@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+.page-content2{
+    background-image: url("/assets/img/page-bg.jpg");
+    background-size: cover;
+    height: calc(100vh - 55px); 
+}
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+p{
+    font-size: 1.2em;
+}
+button{
+    border-radius: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    background: whitesmoke;
+    border: 1px solid;
+    font-size: 1.4em;
+}
+.home-jumbo h1{
+    font-size: 13em;
+    font-weight: 200;
+    line-height: .9em;
+}
+.home-jumbo svg{
+    height: 4em;
+    width: 4em;
+    padding-top: 2em;
+}
+.bg-2{
+    background-image: url("/assets/img/computer-home.jpg");
+    background-size: cover;
+}
+.home-page h2 {
+    font-size: 5em;
+}
+.home-page h3 {
+    font-size: 2.6em;
+    font-weight: 300;
+}
+.help-point{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* #we-help svg{
+    width: 4em;
+    padding-right: 1em;
+} */
+.large-icon{
+    height: 6em;
+
+}
+/* tablet break point */
+@media (min-width: 768px) {
+
+}
